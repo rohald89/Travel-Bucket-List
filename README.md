@@ -2,6 +2,8 @@
 
 ### The Challenge
 
+You've been tasked to create a card component for a travel website. The designer for the company already created some mockups for you. Your challenge is to recreate the provided designs using HTML & CSS.
+
 The provided mockups are for mobile (375px) and desktop (1440px) sized screens. You'll want to be coding this project using the mobile first approach so you'll want to start creating the mobile layout and using media queries make the styling behave differently when the screen size gets at a certain point.
 
 - Mobile First
