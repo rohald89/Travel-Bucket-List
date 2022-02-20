@@ -1,0 +1,42 @@
+/* These are some basic styles applied for the background as well as a reset for any browser applied styles */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(0deg, hsla(126, 46%, 60%, 0.3), hsla(126, 46%, 60%, 0.3)),
+    url(../images/background.svg) 0 -70px repeat-x, 
+    url(../images/background.svg) 0 440px repeat-x,
+    url(../images/background.svg) 0 950px repeat-x, 
+    url(../images/background.svg) 0 1460px repeat-x,
+    #f6f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 
+    1px 1px 1px hsl(0deg 0% 0% / 0.075), 
+    1px 2px 2px hsl(0deg 0% 0% / 0.075),
+    1px 4px 4px hsl(0deg 0% 0% / 0.075), 
+    1px 8px 8px hsl(0deg 0% 0% / 0.075),
+    1px 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+header, 
+footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #69c773;
+}
