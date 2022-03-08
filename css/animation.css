@@ -1,0 +1,15 @@
+.card-wrapper {
+  animation: resize 10s ease-in-out infinite;
+}
+
+@keyframes resize {
+  0% {
+    width: 375px;
+  }
+  50% {
+    width: 1150px;
+  }
+  100% {
+    width: 375px;
+  }
+}
